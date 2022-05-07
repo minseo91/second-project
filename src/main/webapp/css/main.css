@@ -1,0 +1,13 @@
+.slideshow{
+	min-width: 960px;
+	height: 465px;
+	overflow: hidden; /*영역 바깥으로 나가면 숨기기*/
+	position: relative; /*부모가 relative로 되어있어야 한다*/
+}
+
+.slideshow img{
+	display: none;
+	position: absolute; 
+	left: 50%;
+	margin-left: -800px; 
+}
